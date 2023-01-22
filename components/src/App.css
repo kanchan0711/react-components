@@ -1,10 +1,6 @@
-.body{
-    background: url("https://img.freepik.com/free-vector/gradient-hexagonal-background_23-2148952241.jpg?w=2000");
-    
-}
-.Main{
-    padding: 20px 20px 20px 20px
-}
+/* .Main{
+   margin:20px 20px 40px 20px
+} */
 .top{
     display: flex;
     flex-wrap:wrap
@@ -17,15 +13,19 @@
 }
 
 .top-content{
-    justify-content: space-between;
+    justify-content: flex-end;
     display: flex;
     flex-wrap:wrap;
     padding-top: 100px;
     padding-left: 120px;
 
 }
-.h2{
-    color: rgba(204, 204, 204, 0.611);
+h2{
+    font-size: 22px;
+}
+p{
+    font-size: 13px;
+    color: rgba(8, 7, 7, 0.681);
 }
 .must-content{
     padding-left: 75px;
@@ -33,10 +33,11 @@
 }
 
 .bottom-content{
+    justify-content: flex-end;
     display: flex;
     flex-wrap:wrap;
     padding-top: 20px;
-    padding-left: 150px;
+    /* padding-left: 150px; */
 }
 
 .logo{

@@ -1,10 +1,10 @@
 // import logo from './logo.svg';
 import './App.css';
-import FirstPage from './FirstPage';
+import HomePage from './Components/Firstpage/HomePage';
 
 function App() {
   return (
-   <FirstPage/>
+   <HomePage/>
   );
 }
 
