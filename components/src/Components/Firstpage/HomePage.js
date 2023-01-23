@@ -1,14 +1,12 @@
 import React from "react";
 import "./index.css";
-// import amazoneLogo from "../../assets/amazonLogo.avif"
-
 import intelLogo from "../../assets/intelLogo.avif"
 import amazoneLogo from "../../assets/amazonLogo.avif"
 import behanceLogo from "../../assets/behanceLogo.avif"
 import facebookLogo from "../../assets/facebookLogo.avif"
 import slackLogo from "../../assets/slackLogo.avif"
 import ibmLogo from "../../assets/ibmLogo.avif"
-// import hexagone from "../../assets/hexagone.avif"
+
 
 const FirstPage = () => {
   return (
